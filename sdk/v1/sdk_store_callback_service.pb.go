@@ -7,13 +7,12 @@
 package sdkv1
 
 import (
-	reflect "reflect"
-	sync "sync"
-	unsafe "unsafe"
-
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	structpb "google.golang.org/protobuf/types/known/structpb"
+	reflect "reflect"
+	sync "sync"
+	unsafe "unsafe"
 )
 
 const (
@@ -146,9 +145,9 @@ const file_sdk_v1_sdk_store_callback_service_proto_rawDesc = "" +
 	"\x11CallStoreResponse\x12/\n" +
 	"\x06output\x18\x01 \x01(\v2\x17.google.protobuf.StructR\x06output2[\n" +
 	"\x17SdkStoreCallbackService\x12@\n" +
-	"\tCallStore\x12\x18.sdk.v1.CallStoreRequest\x1a\x19.sdk.v1.CallStoreResponseB\xa1\x01\n" +
+	"\tCallStore\x12\x18.sdk.v1.CallStoreRequest\x1a\x19.sdk.v1.CallStoreResponseB\x9e\x01\n" +
 	"\n" +
-	"com.sdk.v1B\x1cSdkStoreCallbackServiceProtoP\x01Z.ccLoad/internal/cursorauth/sdkgen/sdk/v1;sdkv1\xa2\x02\x03SXX\xaa\x02\x06Sdk.V1\xba\x02\vCursorSdkV1\xca\x02\x06Sdk\\V1\xe2\x02\x12Sdk\\V1\\GPBMetadata\xea\x02\aSdk::V1b\x06proto3"
+	"com.sdk.v1B\x1cSdkStoreCallbackServiceProtoP\x01Z+github.com/ba0f3/cursor-sdk-go/sdk/v1;sdkv1\xa2\x02\x03SXX\xaa\x02\x06Sdk.V1\xba\x02\vCursorSdkV1\xca\x02\x06Sdk\\V1\xe2\x02\x12Sdk\\V1\\GPBMetadata\xea\x02\aSdk::V1b\x06proto3"
 
 var (
 	file_sdk_v1_sdk_store_callback_service_proto_rawDescOnce sync.Once

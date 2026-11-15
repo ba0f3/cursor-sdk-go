@@ -7,13 +7,12 @@
 package sdkv1
 
 import (
-	reflect "reflect"
-	sync "sync"
-	unsafe "unsafe"
-
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	durationpb "google.golang.org/protobuf/types/known/durationpb"
+	reflect "reflect"
+	sync "sync"
+	unsafe "unsafe"
 )
 
 const (
@@ -346,9 +345,9 @@ const file_sdk_v1_sdk_errors_proto_rawDesc = "" +
 	"\"SDK_ERROR_CODE_RATE_LIMIT_EXCEEDED\x10\x12\x12!\n" +
 	"\x1dSDK_ERROR_CODE_UPSTREAM_ERROR\x10\x13\x12!\n" +
 	"\x1dSDK_ERROR_CODE_INTERNAL_ERROR\x10\x14\x12#\n" +
-	"\x1fSDK_ERROR_CODE_CLIENT_CANCELLED\x10\x15B\x93\x01\n" +
+	"\x1fSDK_ERROR_CODE_CLIENT_CANCELLED\x10\x15B\x90\x01\n" +
 	"\n" +
-	"com.sdk.v1B\x0eSdkErrorsProtoP\x01Z.ccLoad/internal/cursorauth/sdkgen/sdk/v1;sdkv1\xa2\x02\x03SXX\xaa\x02\x06Sdk.V1\xba\x02\vCursorSdkV1\xca\x02\x06Sdk\\V1\xe2\x02\x12Sdk\\V1\\GPBMetadata\xea\x02\aSdk::V1b\x06proto3"
+	"com.sdk.v1B\x0eSdkErrorsProtoP\x01Z+github.com/ba0f3/cursor-sdk-go/sdk/v1;sdkv1\xa2\x02\x03SXX\xaa\x02\x06Sdk.V1\xba\x02\vCursorSdkV1\xca\x02\x06Sdk\\V1\xe2\x02\x12Sdk\\V1\\GPBMetadata\xea\x02\aSdk::V1b\x06proto3"
 
 var (
 	file_sdk_v1_sdk_errors_proto_rawDescOnce sync.Once

@@ -7,14 +7,13 @@
 package sdkv1
 
 import (
-	reflect "reflect"
-	sync "sync"
-	unsafe "unsafe"
-
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	structpb "google.golang.org/protobuf/types/known/structpb"
 	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
+	reflect "reflect"
+	sync "sync"
+	unsafe "unsafe"
 )
 
 const (
@@ -4322,9 +4321,9 @@ const file_sdk_v1_sdk_messages_proto_rawDesc = "" +
 	"\x0fAgentModeOption\x12!\n" +
 	"\x1dAGENT_MODE_OPTION_UNSPECIFIED\x10\x00\x12\x1b\n" +
 	"\x17AGENT_MODE_OPTION_AGENT\x10\x01\x12\x1a\n" +
-	"\x16AGENT_MODE_OPTION_PLAN\x10\x02B\x95\x01\n" +
+	"\x16AGENT_MODE_OPTION_PLAN\x10\x02B\x92\x01\n" +
 	"\n" +
-	"com.sdk.v1B\x10SdkMessagesProtoP\x01Z.ccLoad/internal/cursorauth/sdkgen/sdk/v1;sdkv1\xa2\x02\x03SXX\xaa\x02\x06Sdk.V1\xba\x02\vCursorSdkV1\xca\x02\x06Sdk\\V1\xe2\x02\x12Sdk\\V1\\GPBMetadata\xea\x02\aSdk::V1b\x06proto3"
+	"com.sdk.v1B\x10SdkMessagesProtoP\x01Z+github.com/ba0f3/cursor-sdk-go/sdk/v1;sdkv1\xa2\x02\x03SXX\xaa\x02\x06Sdk.V1\xba\x02\vCursorSdkV1\xca\x02\x06Sdk\\V1\xe2\x02\x12Sdk\\V1\\GPBMetadata\xea\x02\aSdk::V1b\x06proto3"
 
 var (
 	file_sdk_v1_sdk_messages_proto_rawDescOnce sync.Once

@@ -5,13 +5,12 @@
 package sdkv1connect
 
 import (
-	v1 "github.com/ba0f3/cursor-sdk-go/sdk/v1"
+	connect "connectrpc.com/connect"
 	context "context"
 	errors "errors"
+	v1 "github.com/ba0f3/cursor-sdk-go/sdk/v1"
 	http "net/http"
 	strings "strings"
-
-	connect "connectrpc.com/connect"
 )
 
 // This is a compile-time assertion to ensure that this generated file and the connect package are

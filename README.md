@@ -7,7 +7,7 @@ go build -o cursor-sdk-bridge ./cmd/cursor-sdk-bridge
 ./cursor-sdk-bridge --workspace /path/to/workspace --state-root /path/to/private-state
 ```
 
-The bridge prints a discovery line to stderr with its loopback URL and authentication-token file. For embedding, use `bridge.Start(ctx, bridge.Options{...})`, then `Server.Close(ctx)` on shutdown. SDK Connect clients and protobuf messages are available under `sdk/v1`; the bridge implementation is in `bridge`.
+The bridge prints a discovery line to stderr with its loopback URL and authentication-token file. For embedding, import `github.com/ba0f3/cursor-sdk-go/bridge` as `bridge`, call `bridge.Start(ctx, bridge.Options{...})`, then call `Server.Close(ctx)` on shutdown. SDK Connect clients and protobuf messages are available under `sdk/v1`; the bridge implementation is in `bridge`.
 
 The bridge preserves native checkpoints, run history and client-owned custom tool callbacks. It supports image inputs and tool-returned images. Local persistence requires an exclusive writer per state root; runtime API keys and callback tokens are not stored in agent state. Host shell and filesystem execution, external MCP servers and cloud agents are unavailable. Local artifact downloads are unsupported.
 

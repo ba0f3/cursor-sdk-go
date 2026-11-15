@@ -7,12 +7,11 @@
 package sdkv1
 
 import (
+	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
+	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
-
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 )
 
 const (
@@ -2289,9 +2288,9 @@ const file_sdk_v1_sdk_agent_service_proto_rawDesc = "" +
 	"\x11ListAgentMessages\x12 .sdk.v1.ListAgentMessagesRequest\x1a!.sdk.v1.ListAgentMessagesResponse\x12L\n" +
 	"\rListArtifacts\x12\x1c.sdk.v1.ListArtifactsRequest\x1a\x1d.sdk.v1.ListArtifactsResponse\x12T\n" +
 	"\x10DownloadArtifact\x12\x1f.sdk.v1.DownloadArtifactRequest\x1a\x1d.sdk.v1.DownloadArtifactChunk0\x01\x12=\n" +
-	"\bGetUsage\x12\x17.sdk.v1.GetUsageRequest\x1a\x18.sdk.v1.GetUsageResponseB\x99\x01\n" +
+	"\bGetUsage\x12\x17.sdk.v1.GetUsageRequest\x1a\x18.sdk.v1.GetUsageResponseB\x96\x01\n" +
 	"\n" +
-	"com.sdk.v1B\x14SdkAgentServiceProtoP\x01Z.ccLoad/internal/cursorauth/sdkgen/sdk/v1;sdkv1\xa2\x02\x03SXX\xaa\x02\x06Sdk.V1\xba\x02\vCursorSdkV1\xca\x02\x06Sdk\\V1\xe2\x02\x12Sdk\\V1\\GPBMetadata\xea\x02\aSdk::V1b\x06proto3"
+	"com.sdk.v1B\x14SdkAgentServiceProtoP\x01Z+github.com/ba0f3/cursor-sdk-go/sdk/v1;sdkv1\xa2\x02\x03SXX\xaa\x02\x06Sdk.V1\xba\x02\vCursorSdkV1\xca\x02\x06Sdk\\V1\xe2\x02\x12Sdk\\V1\\GPBMetadata\xea\x02\aSdk::V1b\x06proto3"
 
 var (
 	file_sdk_v1_sdk_agent_service_proto_rawDescOnce sync.Once
